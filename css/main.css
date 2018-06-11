@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Serif', serif;
+}
+/* NAVIGATION */
+  nav {
+    margin: 3% 0;
+  }
+
+/* HEADER */
+header {
+  margin: 5% 0;
+}
+header .card-img-top {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* SECTION / OUR WEB APPS */
+section .apps-text {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.badge-img {
+  width: 100%;
+}
