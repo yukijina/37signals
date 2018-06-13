@@ -28,3 +28,14 @@ section .apps-text {
 .badge-img {
   width: 100%;
 }
+
+/* SECTION / BESTSELLER */
+.bestseller .quote {
+  font-size: 1.3rem;
+  color:rgb(153, 152, 150);
+}
+
+/* SECTION / MORE ABOUT */
+ .more-about p {
+   color:#fa3737;
+ }
