@@ -35,7 +35,42 @@ section .apps-text {
   color:rgb(153, 152, 150);
 }
 
-/* SECTION / MORE ABOUT */
- .more-about p {
-   color:#fa3737;
- }
+/* FOOTER*/
+p.title {
+ color:#fa3737;
+}
+footer a {
+  display: block;
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+p.copyright {
+  color:#959595;
+  margin: 7% 0;
+}
+
+p.copyright a {
+  display: inline;
+  font-size: 0.9rem;
+  }
+
+/* MEDIA QUERY */
+@media(max-width: 653px) {
+  .nav {
+    display: block;
+    text-align: center;
+  }
+}
+@media(max-width: 463px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+  section p.apps-text {
+    font-size: 1rem;
+  }
+  p.copyright a {
+    display: block;
+    font-size: 0.9rem;
+    }
+}
